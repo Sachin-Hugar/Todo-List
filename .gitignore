@@ -1,0 +1,37 @@
+# Node modules
+frontend/node_modules/
+backend/node_modules/
+
+# Build directories (if applicable)
+frontend/build/
+frontend/dist/
+backend/build/
+backend/dist/
+
+# Environment variables
+frontend/.env
+backend/.env
+
+# Log files
+frontend/logs/
+backend/logs/
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Vite specific
+frontend/.vite/
+
+# Ignore public/dist folders
+frontend/public/dist/
+frontend/src/*.local
+
+# Specific files
+frontend/*.local
+backend/*.local
